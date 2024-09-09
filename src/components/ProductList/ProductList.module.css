@@ -1,0 +1,49 @@
+.rare {
+  width: 40%;
+}
+.productside {
+  display: flex;
+  gap: 200px;
+  align-items: center;
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+.allProducts {
+  padding: 20px 50px;
+}
+.basketadd {
+  padding: 6px 90px;
+  border: none;
+  border-radius: 20px;
+  background-color: #cf112c;
+  color: white;
+}
+.btn0 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 10px 0px;
+}
+.heart {
+  font-size: 30px;
+}
+.heart:hover {
+  color: #cf112c;
+}
+.around {
+  margin: 0px 0px 10px 0px;
+  text-decoration: none;
+}
+.price0 {
+  padding-bottom: 10px;
+}
+.color {
+  padding-bottom: 10px;
+}
+.size {
+  padding-bottom: 10px;
+}
+.aroundName {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+}

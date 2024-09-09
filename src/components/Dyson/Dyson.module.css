@@ -1,0 +1,39 @@
+.all {
+  display: grid;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 20px;
+}
+.fenn {
+  width: 100%;
+}
+.lastdec {
+  background-color: #4e445d;
+  color: white;
+  padding: 10px 20px;
+}
+.bash {
+  padding: 10px 0px;
+  font-size: 15px;
+}
+
+@media (max-width: 1440px) {
+  .all {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  .all {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .all {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

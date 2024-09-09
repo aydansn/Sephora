@@ -1,0 +1,46 @@
+.names {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+.sideBySide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: black;
+  color: white;
+}
+.heartIcon {
+  font-size: 20px;
+  position: relative;
+}
+
+@media (max-width: 1440px) {
+  .sideBySide {
+    display: flex;
+    padding: 10px 30px;
+  }
+  .icons {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .sideBySide {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    font-size: 11px;
+    padding: 10px 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .sideBySide {
+    display: flex;
+    gap: 10px;
+    font-size: 5px;
+    padding: 10px 10px;
+  }
+}

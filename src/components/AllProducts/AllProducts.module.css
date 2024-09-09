@@ -1,0 +1,64 @@
+.sideBySides {
+  display: grid;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 20px;
+}
+.you {
+  padding: 10px 20px 0px 20px;
+}
+.dif {
+  width: 100%;
+}
+.dif1 {
+  width: 15%;
+}
+.allBost {
+  border: 1px solid gray;
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
+}
+.border {
+  padding: 10px 10px;
+}
+.ad {
+  font-size: 12px;
+}
+.lastSide {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  margin-right: 60px;
+}
+.view {
+  font-size: 13px;
+}
+.bashliq {
+  font-size: 14px;
+  padding: 0px 0px 5px 0px;
+}
+.qiymet {
+  padding: 0px 0px 5px 0px;
+}
+
+@media (max-width: 1440px) {
+  .sideBySides {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  .sideBySides {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .sideBySides {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

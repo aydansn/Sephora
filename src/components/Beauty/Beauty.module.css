@@ -1,0 +1,64 @@
+.allBeauty {
+  display: grid;
+
+  gap: 10px;
+  align-items: center;
+  padding: 10px 20px;
+}
+.imgbeauty {
+  width: 100%;
+}
+.offers {
+  padding: 10px 20px 10px 20px;
+}
+.make {
+  width: 100%;
+  border: none;
+  padding: 10px 20px;
+  color: black;
+}
+.only {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.neses0 {
+  font-size: 12px;
+  padding: 10px 0px;
+}
+.tille {
+  padding: 10px 0px;
+  font-size: 15px;
+}
+.neses1 {
+  padding: 5px 30px;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.details {
+  font-size: 14px;
+  color: #136bea;
+}
+
+@media (max-width: 1440px) {
+  .allBeauty {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  .allBeauty {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .allBeauty {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

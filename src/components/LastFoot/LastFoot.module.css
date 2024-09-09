@@ -1,0 +1,184 @@
+.neses {
+  background-color: black;
+  color: white;
+  display: grid;
+  gap: 45px;
+  align-items: center;
+  padding: 30px 20px;
+}
+.def {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.nasa {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+  gap: 10px;
+}
+.continue {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.up {
+  padding: 15px 0px;
+}
+.int1 {
+  padding: 10px 30px 10px 10px;
+  border-radius: 5px;
+  border: none;
+}
+.btn0 {
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+.nm {
+  padding: 10px 0px;
+  font-size: 13px;
+}
+.nm0 {
+  font-size: 13px;
+}
+.reg {
+  margin-bottom: 50px;
+}
+.eng {
+  font-size: 13px;
+}
+.we {
+  margin-bottom: 40px;
+}
+.move {
+  margin-top: 50px;
+}
+.yan {
+  background-color: black;
+  color: white;
+  display: grid;
+  gap: 45px;
+  align-items: center;
+  padding: 30px 20px;
+}
+.on {
+  font-size: 12px;
+  padding: 15px 0px;
+}
+.one {
+  font-size: 12px;
+  padding: 18px 0px;
+  line-height: 20px;
+}
+.icons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 1440px) {
+  .neses {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 50%;
+  }
+  .yan {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .yan0 {
+    margin-right: 110px;
+  }
+  .reg {
+    width: 40%;
+  }
+  .bir {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+  }
+  .move {
+    padding-bottom: 20px;
+  }
+  .birr {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .neses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+  .yan {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .yan0 {
+    margin-right: 0px;
+  }
+  .var {
+    width: 100%;
+  }
+  .reg {
+    width: 100%;
+  }
+  .bir {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px 70px 50px 70px;
+    background-color: black;
+    color: white;
+  }
+  .move {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .neses {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .yan {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .yan0 {
+    margin-right: 0px;
+  }
+  .reg {
+    width: 50%;
+    margin: 0px;
+  }
+  .bir {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 0px;
+  }
+  .move {
+    width: 100%;
+    margin: 0px;
+    padding: 0px 50px 50px 50px;
+  }
+  .birr {
+    display: flex;
+    flex-direction: column;
+  }
+}

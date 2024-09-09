@@ -1,0 +1,98 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.side {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.sideAll {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.icon1 {
+  font-size: 25px;
+}
+.choose {
+  font-size: 15px;
+}
+.input1 {
+  padding: 10px 200px 10px 20px;
+  border-radius: 20px;
+  background-color: #f6f6f8;
+  color: black;
+  border: 1px solid black;
+}
+.heartIcon {
+  font-size: 25px;
+  position: absolute;
+  margin: 5px 0px 0px 0px;
+}
+.num {
+  font-size: 13px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  position: relative;
+  margin-left: 15px;
+  padding: 2px 4px;
+}
+
+@media (max-width: 1440px) {
+  .navbar {
+    display: flex;
+  }
+  .logos {
+    width: 15%;
+  }
+  .side {
+    display: flex;
+  }
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .logos {
+    width: 20%;
+  }
+  .side {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+  }
+  .center{
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .logos {
+    width: 35%;
+  }
+  .side {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+  }
+  .center{
+    text-align: center;
+  }
+}

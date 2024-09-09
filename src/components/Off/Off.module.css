@@ -1,0 +1,45 @@
+.sideBy {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 10px 20px 0px 20px;
+}
+.image0 {
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+}
+.allOfThem {
+  width: 100%;
+  padding: 25px 20px;
+  text-decoration: none;
+  background-color: #aab2d7;
+  color: black;
+  border-radius: 0px 0px 5px 5px;
+}
+.img1 {
+  text-decoration: none;
+  list-style: none;
+}
+.and {
+  font-size: 14px;
+  padding: 10px 0px;
+}
+
+@media (max-width: 1440px) {
+  .sideBy {
+    display: flex;
+  }
+}
+
+@media (max-width: 800px) {
+  .sideBy {
+    display: flex;
+  }
+}
+
+@media (max-width: 500px) {
+  .sideBy {
+    display: flex;
+    flex-direction: column;
+  }
+}

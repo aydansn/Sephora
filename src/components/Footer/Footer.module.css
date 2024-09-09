@@ -1,0 +1,44 @@
+.sides {
+  display: grid;
+  row-gap: 10px;
+  align-items: center;
+ 
+  background-color: black;
+  color: white;
+  margin-top: 50px;
+}
+.difdiv {
+  color: white;
+}
+.sides0 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.foottitle {
+  font-size: 14px;
+}
+
+@media (max-width: 1440px) {
+  .sides {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px 400px 30px 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .sides {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px 50px 30px 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .sides {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 50px 30px 20px;
+  }
+}
